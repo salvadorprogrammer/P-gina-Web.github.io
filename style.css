@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-wrap: balance;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-size: 20px;
+    position: relative;
+    background-color: #222;
+    color: #fff;
+}
+
+.Comments {
+    position: relative;
+    text-align: center;
+
+}
+
+.header {
+    background-color: #333;
+    width: 216vh;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    right: 8px;
+    height: 60px;
+}
+
+.header__list-element-link {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 0 ;
+}
+
+
+.box {
+    text-align: center;
+    text-wrap: pretty;
+}
+
+.header__list-element {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    margin: 4px 25px;
+    
+}
+
+.header__list-element-link:hover {
+    background-color: #66fa;
+    padding: 20px 10px;  
+}
+
+.header__list-element-link:last-child:active {
+    color: #fff;
+    border: 2px solid #000;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 0 ;
+}
+
+.foot {
+    background-color: #333;
+    position: relative;
+    top: 150px;
+    right: 6px;
+    height: 100px;
+    width: 216vh;
+    text-align: center;
+    
+}
+
+.foot__content {
+    position: relative;
+    top: 25px;
+}
+
+.Comments__text-typecomment {
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+}
+
+.Comments__text-typecomment::placeholder {
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Comments__text-submit {
+    background-color: #000;
+    color: #af5;
+}
+
+.Comments__text-typecomment:focus {
+    background-color: #000;
+    color: #fff;
+    padding: 5px;                          
+}
+
+
+
